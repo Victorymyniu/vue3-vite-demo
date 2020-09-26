@@ -1,8 +1,6 @@
 <template>
   <div>{{ count }} {{ object.foo }}</div>
-  <p>
-    <button @click="myFn">按钮</button>
-  </p>
+  <p><button @click="myFn">按钮</button></p>
 </template>
 
 <script>
