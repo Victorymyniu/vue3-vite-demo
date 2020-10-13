@@ -17,6 +17,8 @@
 
 <script>
 import { ref, reactive } from 'vue'
+import useAddStudent from './add.js'
+import useRemoveStudent from './rem.js'
 export default {
   name: 'App3',
   // setup函数是组合API的入口函数
@@ -40,6 +42,7 @@ export default {
   }
 }
 // 上面数据和业务逻辑放进下面方法中，解决vue2.0数据和业务逻辑分散的问题
+/*
 function useAddStudent(state) {
   let state2 = reactive({
     stu:{
@@ -74,4 +77,5 @@ function useRemoveStudent() {
   }
   return{state, remStu}
 }
+*/
 </script>
